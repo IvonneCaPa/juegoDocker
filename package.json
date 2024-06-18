@@ -1,0 +1,27 @@
+{
+  "name": "node-game",
+  "version": "1.0.0",
+  "description": "juego en docker",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/IvonneCaPa/juegoDocker.git"
+  },
+  "keywords": [
+    "docker",
+    "juego",
+    "primero"
+  ],
+  "author": "ivonne cantor",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
